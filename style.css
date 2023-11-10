@@ -2,16 +2,18 @@ body {
     background: purple
 }
 
+h1 {
+    text-align: center;
+}
+
 #banner {
     width: 100%;
 }
 
-h1 {
-    text-align: center;
-}
 p {
     text-align: center;
 }
+
 #objetivo {
     font-size: 20px;
 }
