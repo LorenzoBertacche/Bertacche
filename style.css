@@ -1,5 +1,5 @@
 body {
-    background: brown;
+    
 }
 
 h1 {
@@ -8,6 +8,10 @@ h1 {
 
 #banner {
     width: 100%;
+}
+
+.principal {
+    background: brown;
 }
 
 p {
