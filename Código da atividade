@@ -1,41 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Barbearia Alura</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+        <head>
+            <meta charset="UTF-8">
+            <title>Barbearia Alura</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
 
     <body>
-        <img src="banner.jpg">
+        <header>
+            
+            <h1 class="titulo-principal">Barbearia Alura</h1>
+
+        </header>
+
+        <div class="principal"> 
+            
+                <img class="imagemprincipal" id="banner" src="banner.jpg">
+
+                <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
         
-        <h1>Sobre a Barbearia Alura</h1>
+                <p style=""> Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+                Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        
+                <p id="objetivo"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+        
+                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+                O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </div>
+        <div class="benefícios">
+                <h3 class="titulo-centralizado">Benefícios</h3>
 
-        <p style="">Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
-        Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+            <ul>
+                    <li class="itens"> Atendimento </li>
+                    <li class="itens">Espaço Inovativo</li>
+                    <li class="itens">Localização Estratégica</li>
+                    <li class="itens">Profissionais Selecionados</li>
+            </ul>
 
-        <p id="objetivo"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+                    <img src="beneficios.jpg" class="imagembeneficios">
+        </div>
+        
 
-        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-        O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        
     </body>
 </html>
 
 
 
 body {
-    background: purple
+    
 }
-h1 {
+
+.titulo-principal {
+    padding-left: 20px;
+    background: yellow;
+}
+
+#banner {
+    width: 100%;
+}
+
+.titulo-centralizado {
     text-align: center;
 }
+
+.principal {
+    background: brown;
+    padding: 30px;
+}
+
 p {
     text-align: center;
 }
+
 #objetivo {
     font-size: 20px;
 }
 
 em strong {
-    color: #FF0000;
+    color: orange;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.benefícios {
+    background: red;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios {
+    width: 50%;
 }
