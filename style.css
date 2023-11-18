@@ -19,7 +19,7 @@ body {
 .principal {
     background: orange;
     padding: 30px;
-    display: inline-block;
+    display: block;
 }
 
 p {
