@@ -6,7 +6,7 @@ body {
     padding-left: 20px;
     background: yellow;
     padding: 30px;
-    display: inline;
+    display: block;
 }
 
 #banner {
