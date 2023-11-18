@@ -16,7 +16,7 @@ body {
 }
 
 .principal {
-    background: brown;
+    background: orange;
     padding: 30px;
 }
 
@@ -29,7 +29,7 @@ p {
 }
 
 em strong {
-    color: orange;
+    color: blue;
 }
 
 .itens {
