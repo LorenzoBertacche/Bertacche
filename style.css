@@ -4,10 +4,12 @@ body {
 
 .titulo-principal {
     padding-left: 20px;
+    background: brown;
 }
 
 #banner {
     width: 100%;
+    background: brown;
 }
 
 .titulo-centralizado {
