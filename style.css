@@ -29,3 +29,7 @@ em strong {
 .benefícios {
     background: red;
 }
+
+#beneficios {
+    width: 100%;
+}
